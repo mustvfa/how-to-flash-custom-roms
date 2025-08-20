@@ -7,9 +7,7 @@
 
 > ## ⚠ Warnings & Disclaimer
 - Unlocking the bootloader will **void warranty**.  
-- This process will **erase all data** on your phone.  
-- Flashing custom software can **brick your device** if done wrong.  
-- Proceed at your own risk — I am **not responsible** for any damages.  
+- This process will **erase all data** on your phone.   
 
 ---
 
@@ -35,7 +33,7 @@
 **Tools needed:** [Odin (Windows)](https://odindownload.com/download/Odin3_v3.14.4.zip)  
 
 ### 1. Prepare Recovery
-- Compress `recovery.img` (from Downloads section in Telegram/XDA) to `recovery.tar`.  
+- Compress `recovery.img` (from Downloads section in Telegram/XDA post) to `recovery.tar`.  
   → Right click `recovery.img` → **Compress to .tar**.  
 
 ### 2. Flash via Odin (Windows)
@@ -58,14 +56,14 @@
 
 ### 2. Sideload ROM via ADB
 - Extract **platform-tools-latest-windows.zip**.  
-- Right click inside the folder → **Open Terminal**.  
+- Right click in an empty space inside the folder → **Open Terminal**.  
 - Type `cmd` then press Enter.  
 - Type `adb sideload` then drag your ROM `.zip` file into the terminal window.  
-- Press Enter → ROM starts flashing.  
+- Press Enter, it'll start flashing.  
 
 ### 3. Installing GApps (If Required)  
-- Skip if ROM notes say it already includes GApps.  
-- After ROM flash → stay in Recovery → Apply Update → Apply from ADB.  
+> Skip if ROM notes say it already includes GApps.  
+- After rom flashing is done, stay in Recovery → Apply Update → Apply from ADB.  
 - Sideload GApps `.zip` the same way as ROM.  
 - When done, select **Reboot system now**.  
 
@@ -82,9 +80,9 @@
 ## Rooting with Magisk (Optional)
 
 ### 1. Prepare Magisk
-- Download **Magisk v26.3**.  
+- Download **[Magisk-v26.3.apk](https://pixeldrain.com/u/pyj8y8T4)**.  
 - Rename `Magisk-v26.3.apk` → `Magisk-v26.3.zip`.  
-- Copy ZIP to device/SD card.  
+- Copy ZIP to device/SD card, depends on rom recovery if it has flash from internal storage so copy it to device.  
 
 ### 2. Flash Magisk in Recovery
 - Boot into Recovery (**Power + Volume Up**) or use ROM’s Advanced Reboot.  
