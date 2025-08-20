@@ -5,25 +5,6 @@ A guide to show y'all how to flash custom roms and root it on a21s, wish it help
 
 ---
 
-## Table of Contents
-- [Preparations](#preparations)
-  - [Unlock Bootloader](#1-unlock-bootloader)
-  - [Enable Developer Options & USB Debugging](#2-enable-developer-options--usb-debugging)
-- [Flashing Custom Recovery](#flashing-custom-recovery)
-  - [Prepare Recovery](#1-prepare-recovery)
-  - [Flash via Odin (Windows)](#2-flash-via-odin-windows)
-  - [Boot into Recovery](#3-boot-into-recovery)
-- [Flashing the ROM and gapps](#flashing-the-rom-and-gapps)
-  - [In Recovery](#1-in-recovery)
-  - [Sideload ROM via ADB](#2-sideload-rom-via-adb)
-  - [Installing GApps (If Required)](#3-installing-gapps-if-required)
-- [Rooting with Magisk (Optional)](#rooting-with-magisk-optional)
-  - [Prepare Magisk](#1-prepare-magisk)
-  - [Flash Magisk in Recovery](#2-flash-magisk-in-recovery)
-  - [Finalize](#3-finalize)
-
----
-
 ## Preparations
 
 ### 1. Unlock Bootloader
@@ -104,3 +85,21 @@ A guide to show y'all how to flash custom roms and root it on a21s, wish it help
 
 > Enjoy your custom ROM :3
 
+---
+
+## Table of Contents
+- [Preparations](#preparations)
+  - [Unlock Bootloader](#1-unlock-bootloader)
+  - [Enable Developer Options & USB Debugging](#2-enable-developer-options--usb-debugging)
+- [Flashing Custom Recovery](#flashing-custom-recovery)
+  - [Prepare Recovery](#1-prepare-recovery)
+  - [Flash via Odin (Windows)](#2-flash-via-odin-windows)
+  - [Boot into Recovery](#3-boot-into-recovery)
+- [Flashing the ROM and gapps](#flashing-the-rom-and-gapps)
+  - [In Recovery](#1-in-recovery)
+  - [Sideload ROM via ADB](#2-sideload-rom-via-adb)
+  - [Installing GApps (If Required)](#3-installing-gapps-if-required)
+- [Rooting with Magisk (Optional)](#rooting-with-magisk-optional)
+  - [Prepare Magisk](#1-prepare-magisk)
+  - [Flash Magisk in Recovery](#2-flash-magisk-in-recovery)
+  - [Finalize](#3-finalize)
