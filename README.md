@@ -34,7 +34,8 @@
 
 ### 1. Prepare Recovery
 - Compress `recovery.img` (from Downloads section in Telegram/XDA post) to `recovery.tar`.  
-  → Right click `recovery.img` → **Compress to .tar**.  
+> you gotta make sure that the file name is recovery.img not recovery1.img or smth because flashing will fail
+   → Right click `recovery.img` → **Compress to .tar**.  
 
 ### 2. Flash via Odin (Windows)
 - Open Odin → go to **Options** → **Disable Auto Reboot**.  
